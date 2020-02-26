@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.attendance.mapper.AttendanceMapper">
+  <resultMap id="BaseResultMap" type="com.example.attendance.domain.Attendance">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="atteid" jdbcType="BIGINT" property="atteid" />
+    <result column="attecompanyid" jdbcType="BIGINT" property="attecompanyid" />
+    <result column="atteemplid" jdbcType="BIGINT" property="atteemplid" />
+    <result column="attedate" jdbcType="TIMESTAMP" property="attedate" />
+    <result column="atteone" jdbcType="TIMESTAMP" property="atteone" />
+    <result column="attetwo" jdbcType="TIMESTAMP" property="attetwo" />
+    <result column="atteflag" jdbcType="BIT" property="atteflag" />
+    <result column="attestate" jdbcType="TINYINT" property="attestate" />
+    <result column="attelatetime" jdbcType="VARCHAR" property="attelatetime" />
+    <result column="atteendtime" jdbcType="VARCHAR" property="atteendtime" />
+  </resultMap>
+</mapper>

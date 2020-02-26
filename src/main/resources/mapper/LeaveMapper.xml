@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.attendance.mapper.LeaveMapper">
+  <resultMap id="BaseResultMap" type="com.example.attendance.domain.Leave">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="leavid" jdbcType="BIGINT" property="leavid" />
+    <result column="leavemplid" jdbcType="BIGINT" property="leavemplid" />
+    <result column="leavagentid" jdbcType="BIGINT" property="leavagentid" />
+    <result column="leavflag" jdbcType="INTEGER" property="leavflag" />
+    <result column="leavtype" jdbcType="INTEGER" property="leavtype" />
+    <result column="leavreason" jdbcType="VARCHAR" property="leavreason" />
+    <result column="leavresult" jdbcType="VARCHAR" property="leavresult" />
+    <result column="leavstart" jdbcType="TIMESTAMP" property="leavstart" />
+    <result column="leavend" jdbcType="TIMESTAMP" property="leavend" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.attendance.mapper.DepartmentMapper">
+  <resultMap id="BaseResultMap" type="com.example.attendance.domain.Department">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="depaid" jdbcType="BIGINT" property="depaid" />
+    <result column="depaname" jdbcType="VARCHAR" property="depaname" />
+    <result column="depacompanyid" jdbcType="BIGINT" property="depacompanyid" />
+  </resultMap>
+</mapper>

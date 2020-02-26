@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.attendance.mapper.CompanyMapper">
+  <resultMap id="BaseResultMap" type="com.example.attendance.domain.Company">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="compid" jdbcType="BIGINT" property="compid" />
+    <result column="compname" jdbcType="VARCHAR" property="compname" />
+    <result column="compholderid" jdbcType="BIGINT" property="compholderid" />
+    <result column="compholdername" jdbcType="VARCHAR" property="compholdername" />
+    <result column="compholderpwd" jdbcType="VARCHAR" property="compholderpwd" />
+    <result column="compholderphone" jdbcType="VARCHAR" property="compholderphone" />
+    <result column="compholderemail" jdbcType="VARCHAR" property="compholderemail" />
+    <result column="compip" jdbcType="VARCHAR" property="compip" />
+  </resultMap>
+</mapper>

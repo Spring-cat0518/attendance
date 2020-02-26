@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.attendance.mapper.ClockMapper">
+  <resultMap id="BaseResultMap" type="com.example.attendance.domain.Clock">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="clocid" jdbcType="BIGINT" property="clocid" />
+    <result column="clocemplid" jdbcType="BIGINT" property="clocemplid" />
+    <result column="cloctime" jdbcType="TIMESTAMP" property="cloctime" />
+  </resultMap>
+</mapper>

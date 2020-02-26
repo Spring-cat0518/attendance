@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.attendance.mapper.BrushMapper">
+  <resultMap id="BaseResultMap" type="com.example.attendance.domain.Brush">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="brusid" jdbcType="BIGINT" property="brusid" />
+    <result column="brusemplid" jdbcType="BIGINT" property="brusemplid" />
+    <result column="brusagentid" jdbcType="BIGINT" property="brusagentid" />
+    <result column="brusflag" jdbcType="INTEGER" property="brusflag" />
+    <result column="brustime" jdbcType="VARCHAR" property="brustime" />
+    <result column="brusresult" jdbcType="VARCHAR" property="brusresult" />
+    <result column="brusreason" jdbcType="VARCHAR" property="brusreason" />
+  </resultMap>
+</mapper>
